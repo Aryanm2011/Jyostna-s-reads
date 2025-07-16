@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jyostna Mahapatra's Books</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background: #fdf6f0;
+      color: #333;
+    }
+    header {
+      background-color: #8b5e3c;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      background-color: #e0cfc2;
+      padding: 1rem;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #5a3b24;
+      font-weight: bold;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .book {
+      margin-bottom: 2rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 1rem;
+    }
+    .book img {
+      max-width: 150px;
+      float: left;
+      margin-right: 1rem;
+    }
+    footer {
+      background-color: #8b5e3c;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jyostna Mahapatra's Book Collection</h1>
+    <p>Celebrating stories from the heart</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#books">Books</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="container">
+    <section id="about">
+      <h2>About the Author</h2>
+      <p>Jyostna Mahapatra has been writing stories for over 30 years. Her books are filled with warmth, wisdom, and tales inspired by her life, heritage, and imagination.</p>
+    </section>
+
+    <section id="books">
+      <h2>Books</h2>
+      <div class="book">
+        <img src="book1-cover.jpg" alt="Book 1 Cover" />
+        <h3>Book Title One</h3>
+        <p>A heartwarming tale of family, tradition, and resilience. This book explores the journey of a young girl growing up in a changing world.</p>
+      </div>
+      <div class="book">
+        <img src="book2-cover.jpg" alt="Book 2 Cover" />
+        <h3>Book Title Two</h3>
+        <p>An enchanting story about lost letters, long-lost love, and the power of storytelling to reconnect generations.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: jyostna.mahapatra@email.com</p>
+      <p>Follow on social media: @jyostnasbooks</p>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2025 Jyostna Mahapatra. All rights reserved.</p>
+  </footer>
+</body>
+</html>
